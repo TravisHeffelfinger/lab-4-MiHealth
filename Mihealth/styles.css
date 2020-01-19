@@ -1,0 +1,123 @@
+.logo {
+    font-family: Impact;
+    font-size: large;
+    font-weight: bolder;
+    color: yellowgreen;
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+#redtext {
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 20px 0 20px;
+    margin: -10px -10px 0 -10px;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    font-family: "Arial";
+    font-size: large;
+    padding: 10px 10px;
+}
+
+.mainPage {
+    background-color: lightgrey;
+}
+
+.pageContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+#pageText {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: normal;
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+#browse {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: Impact;
+    font-size: 70px;
+    margin: 0px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+
+}
+
+.foodImg {
+    position: absolute;
+    object-fit: cover;
+}
+
+.foodContainer {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    padding: 0px 10px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.imageText {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.mainImgContainer {
+    display: flex;
+}
+
+#dinner{
+    height: 450px;
+}
+
+.whiteText{
+    background-color: white;
+    font-family: Arial;
+    padding: 10px 10px 10px 0;
+    text-align: center;
+    font-size: 75%;
+    font-weight: bold;
+}
+
+.greentext {
+    background-color: yellowgreen;
+    font-family: Arial;
+    font-size: 75%;
+    padding: 10px;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+}
