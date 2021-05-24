@@ -1,3 +1,10 @@
+html {
+    max-width: 80%;
+    min-width: 60%;
+    margin: auto;
+    background-color: white;
+}
+
 .logo {
     font-family: Impact;
     font-size: large;
@@ -23,13 +30,15 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 10%;
 }
+
 .button {
     text-decoration: none;
     color: black;
     font-family: "Arial";
     font-size: large;
+    margin: 2% 5%;
     padding: 10px 10px;
 }
 
@@ -41,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 30px;
+    padding: 5%;
 }
 
 #pageText {
@@ -83,6 +92,7 @@ p {
     height: 450px;
     position: relative;
     padding: 0px 10px;
+    
 }
 
 body {
@@ -106,10 +116,11 @@ body {
 .whiteText{
     background-color: white;
     font-family: Arial;
-    padding: 10px 10px 10px 0;
+    padding: 10px;
     text-align: center;
     font-size: 75%;
     font-weight: bold;
+    margin-left: 30%;
 }
 
 .greentext {
@@ -117,6 +128,7 @@ body {
     font-family: Arial;
     font-size: 75%;
     padding: 10px;
+    padding-right: 20px;
     width: 100px;
     text-align: right;
     font-weight: bold;
